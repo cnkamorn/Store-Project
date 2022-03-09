@@ -25,6 +25,7 @@
         </nav>
     </header>
     <main>
+        <article>
         <h1>TONES</h1>
         <div class="Colors" id="Colors_Section">
             <div class="FirstColor">
@@ -67,7 +68,9 @@
                   
             </div>
         </div>
+    </article>
         <hr>
+    <article>
         <div class="items" id="items_section">
             <h1>ITEMS</h1>
             <div class="Product">
@@ -93,6 +96,7 @@
                     </div>
             </div>
         </div>
+    </article>
     </main>
    
 </body>
