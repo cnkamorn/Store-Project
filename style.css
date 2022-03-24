@@ -10,6 +10,7 @@ header {
     ;
 }
 
+
 a {
     text-decoration: none;
     color: black;
@@ -18,7 +19,7 @@ a {
 .Logo a {
     font-family: 'Lato', sans-serif !important;
     position: absolute;
-    top:1em;
+    top:1.5em;
     left:3.5em;
     color:black;
     
@@ -29,13 +30,39 @@ a {
     color: black;
     
 }
-ul {
-    text-align: right;
-    width: 400px;
-    position: absolute;
-    right: 70px;
-    top:15px;
 
+.searchbar, .menu {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    margin-top: 1.5em;
+}
+
+.searchbar {
+    position:absolute; 
+    right:15em;
+    margin-top: 17px;
+   
+}
+
+input {
+    padding: 8px;
+}
+input:focus {
+    border: 1px solid #445626;
+    outline: 1px solid #445626;
+    border-radius: 1px;
+}
+
+.menu {
+    margin-right:60px;
+}
+
+.menu a{
+    padding: 1px 15px;
+}
+.topnav a:active{
+    font-weight: 900;
 }
 li {
     display: inline-block;
@@ -108,14 +135,14 @@ hr {
     border: none;
 }
 
+
 .Product {
- 
-    height: 40em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.Pant, .Jacket, .Bag, .T-shirt {
-    display: inline-block;
-    height: 50%;
-    width: 33%;
+.Product-Card {
+    margin: 0px 30px;
 }
 
 .items h1{
