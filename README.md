@@ -106,12 +106,7 @@
                     <h4 class="ProductDetail">Ceaseless T-shirt</h4>
                         <div class="Price">THB 1,650</div>
                 </div>
-                <div class="Product-Card" id="T-Shirt">
-                    <img src="" width="420" height="500"> 
-                    <h4 class="brandname">Gathering Brother</h4>
-                    <h4 class="ProductDetail">Ceaseless T-shirt</h4>
-                        <div class="Price">THB 1,650</div>
-                </div>
+                
                 
             
                 
